@@ -619,10 +619,10 @@ section {
   text-transform: uppercase;
 }
 
-.about .content h3 {
+.about .content h5 {
   font-weight: 500;
   line-height: 32px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .about .content ul {
@@ -645,6 +645,25 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+#about .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  background: #009970;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+#about .btn-get-started:hover {
+  background: #009970;
 }
 
 /*--------------------------------------------------------------
@@ -705,6 +724,19 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.services h3 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+
 .services .icon-box {
   text-align: center;
   padding: 40px 20px;
@@ -758,6 +790,25 @@ section {
 
 .services .icon-box:hover .icon {
   color: #fff;
+  background: #009970;
+}
+#services .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  background: #009970;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+#services .btn-get-started:hover {
   background: #009970;
 }
 /*--------------------------------------------------------------
