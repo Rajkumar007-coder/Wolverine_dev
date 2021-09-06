@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'wolverineSofttech'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E98B9AC5168E4761AF374591D26B5666 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1677C666B32A4C9EA0E6B89179127692 }}
           package: .
